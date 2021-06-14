@@ -3,7 +3,7 @@
 2. Run HelloWordTest under test/java/
 3. If all tests passed, your environment is ready, Congratulations!
 
-# Requirement
+# Description
 Banking Account has functionality of deposit and withdraw and printStatement.
 
 An example statement would be:
