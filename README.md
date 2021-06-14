@@ -8,9 +8,11 @@ Banking Account has functionality of deposit and withdraw and printStatement.
 
 An example statement would be:
 
+```
 Date        Amount  Balance
 24.12.2015   +500      500
 23.8.2016    -100      400
+```
 
 # Homework Requirement
 Using Test Doubles related knowledge to test public methods inside Account/Clock/StatementPrinter/TransactionRepository.
