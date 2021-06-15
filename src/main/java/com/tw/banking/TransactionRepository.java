@@ -17,7 +17,7 @@ public class TransactionRepository {
         transactions.add(new Transaction(clock.todayAsString(), amount));
     }
 
-    public void addWithdrawal(int amount) {
+    public void addWithdraw(int amount) {
         transactions.add(new Transaction(clock.todayAsString(), -amount));
     }
 

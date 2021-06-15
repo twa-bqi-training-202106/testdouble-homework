@@ -3,11 +3,11 @@ package com.tw.banking;
 public class Account {
 
     private TransactionRepository transactionRepository;
-    private StatementPrinter statementPrinter;
+    private Printer printer;
 
-    public Account(TransactionRepository transactionRepository, StatementPrinter statementPrinter) {
+    public Account(TransactionRepository transactionRepository, Printer printer) {
         this.transactionRepository = transactionRepository;
-        this.statementPrinter = statementPrinter;
+        this.printer = printer;
     }
 
     public void deposit(int amount) {
@@ -15,10 +15,10 @@ public class Account {
     }
 
     public void withdraw(int amount) {
-        transactionRepository.addWithdrawal(amount);
+        transactionRepository.addWithdraw(amount);
     }
 
     public void printStatement() {
-        statementPrinter.print(transactionRepository.allTransactions());
+        printer.print(transactionRepository.allTransactions());
     }
 }

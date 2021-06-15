@@ -9,12 +9,12 @@ Banking Account has functionality of deposit and withdraw and printStatement.
 An example statement would be:
 
 ```
-Date        Amount  Balance
-24.12.2015   +500      500
-23.8.2016    -100      400
+Date | Amount | Balance
+15/06/2021 | -100 | 100
+15/06/2021 | 200 | 200
 ```
 
 # Homework Requirement
-Using Test Doubles related knowledge to test public methods inside Account/StatementPrinter/TransactionRepository.
+Using Test Doubles related knowledge to test public methods inside Account/Printer/TransactionRepository.
 
 e.g. Account deposit will call repository addDeposit method.
