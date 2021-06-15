@@ -15,6 +15,6 @@ Date        Amount  Balance
 ```
 
 # Homework Requirement
-Using Test Doubles related knowledge to test public methods inside Account/Clock/StatementPrinter/TransactionRepository.
+Using Test Doubles related knowledge to test public methods inside Account/StatementPrinter/TransactionRepository.
 
 e.g. Account deposit will call repository addDeposit method.
